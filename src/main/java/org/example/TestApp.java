@@ -10,7 +10,7 @@ import org.example.service.TicketCrudService;
 import java.util.List;
 
 public class TestApp {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         ClientCrudService clientService = new ClientCrudService();
         PlanetCrudService planetService = new PlanetCrudService();
